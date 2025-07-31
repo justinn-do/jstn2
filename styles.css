@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: black;
+    color: rgb(41, 40, 40);
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    max-width: 800px;
+  }
+  
+  /* Glow Cursor */
+  .cursor-glow {
+    position: fixed;
+    width: 200px; /* Large soft glow */
+    height: 200px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(255,255,255,0) 70%);
+    mix-blend-mode: screen; /* Allows text to remain visible */
+    transform: translate(-50%, -50%);
+  }
+
+  #code{
+    color:rgb(92, 89, 89);
+  }
