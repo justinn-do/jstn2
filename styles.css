@@ -2,9 +2,11 @@ body {
     margin: 0;
     padding: 20px;
     background: black;
-    color: rgb(41, 40, 40);
+    color: rgb(212, 212, 212);
     font-family: sans-serif;
     line-height: 1.5;
+    align-items: center;
+    text-align: center;
   }
   
   h1 {
